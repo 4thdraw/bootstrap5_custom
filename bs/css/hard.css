@@ -2,4 +2,34 @@
 font-family: 'Noto Sans KR', sans-serif; */
 
 
+body{
+    color:#222;
+}
 a{ font-family: 'Noto Sans KR', sans-serif;}
+li{ list-style: none;;}
+
+h2 .active{
+    display: inline-block;
+    color: red;
+}
+h2 .active:before{
+    content: "";
+    display: block;
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto 8px;
+}
+
+
+
+#notice .round{
+    border-radius: 2rem;
+
+
+}
+#notice ul{
+    margin-left:-0.5rem;
+    margin-right:-0.5rem;
+}
