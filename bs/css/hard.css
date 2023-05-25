@@ -8,20 +8,16 @@ body{
 a{ font-family: 'Noto Sans KR', sans-serif;}
 li{ list-style: none;}
 
-.bgimg{}
-.round,
-.round a{ border-radius: 30px;}
+
+.round, .round a{ border-radius: 30px;}
 .fontS{ font-size: 13px; font-weight: 100; letter-spacing: -0.083em;}
 
-#sectionSamsung{
-
+#sectionSamsung .bgimg a{ 
+    background: 
+    url(https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/home/feature/230314/th-home-pm9c1a-pc2@2x.png)
+    center no-repeat ;
+    background-size: auto 100%;
 }
-#sectionSamsung .thumb1{}
-#sectionSamsung .thumb2{}
-#sectionSamsung .thumb3{}
-#sectionSamsung .thumb4{}
-#sectionSamsung .thumb5{}
-#sectionSamsung .thumb6{}
 #sectionSamsung .bgimg div a{
     background-color: black ;
     padding: 18px;
