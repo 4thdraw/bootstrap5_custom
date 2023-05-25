@@ -22,12 +22,15 @@ li{ list-style: none;}
 #sectionSamsung .thumb4{}
 #sectionSamsung .thumb5{}
 #sectionSamsung .thumb6{}
-#sectionSamsung .bgimg a{
+#sectionSamsung .bgimg div a{
     background-color: black ;
     padding: 18px;
     text-decoration: none;
+    position: absolute;
+    left:0; right:0;
+    top:0; bottom:0;
 }
-
+#sectionSamsung li div{ position: relative; height: 0; padding-top: 100%;}
 
 
 
