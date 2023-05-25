@@ -6,33 +6,29 @@ body{
     color:#222;
 }
 a{ font-family: 'Noto Sans KR', sans-serif;}
-li{ list-style: none;;}
+li{ list-style: none;}
 
-h2 .active{
-    display: inline-block;
-    color: red;
-}
-h2 .active:before{
-    content: "";
-    display: block;
-    width:8px;
-    height:8px;
-    border-radius: 50%;
-    background-color: red;
-    margin: 0 auto 8px;
-}
+.bgimg{}
+.round{}
+.fontS{}
 
-
-
-#notice .round{
-    border-radius: 2rem;
-
+#sectionSamsung{
 
 }
-#notice ul{
-    margin-left:-0.5rem;
-    margin-right:-0.5rem;
-}
+#sectionSamsung .thumb1{}
+#sectionSamsung .thumb2{}
+#sectionSamsung .thumb3{}
+#sectionSamsung .thumb4{}
+#sectionSamsung .thumb5{}
+#sectionSamsung .thumb6{}
+
+
+
+
+
+
+
+
 
 
 
