@@ -9,8 +9,9 @@ a{ font-family: 'Noto Sans KR', sans-serif;}
 li{ list-style: none;}
 
 .bgimg{}
-.round{}
-.fontS{}
+.round,
+.round a{ border-radius: 30px;}
+.fontS{ font-size: 13px; font-weight: 100; letter-spacing: -0.083em;}
 
 #sectionSamsung{
 
@@ -21,6 +22,12 @@ li{ list-style: none;}
 #sectionSamsung .thumb4{}
 #sectionSamsung .thumb5{}
 #sectionSamsung .thumb6{}
+#sectionSamsung .bgimg a{
+    background-color: black ;
+    padding: 18px;
+    text-decoration: none;
+}
+
 
 
 
