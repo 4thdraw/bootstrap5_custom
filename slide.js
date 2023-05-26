@@ -3,7 +3,7 @@ const swiper = new Swiper("#banner .swiper", {
         delay: 3000,
         disableOnInteraction: false,
     },
-    slidesPerView: 1.8,
+    slidesPerView: "auto",
     spaceBetween: 30,
     slidesPerGroupSkip: 1,
     centeredSlides: true,
