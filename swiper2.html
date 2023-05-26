@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스와이퍼실행하기</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+<style>
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  #banner .swiper{
+    padding-bottom: 80px;
+  }
+  #banner .swiper-slide{   /*자바스크립트로 너비가 제공중*/ 
+    position: relative;
+    
+   
+  }
+
+  #banner .swiper-slide div{
+ 
+    border-radius: 50%;
+    height:0;
+    padding-bottom: 100%;
+    border:10px solid black;
+    transform: scale(0.8);
+    transition: 0.5s;
+
+  }
+  #banner .swiper-slide-active div{
+    border-color:red !important;
+    transform: scale(1);
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+
+  <section id="banner">
+      <div class="swiper">
+        <div class="swiper-wrapper">       
+            <div class="swiper-slide event">
+              <div></div>
+            </div>
+            <div class="swiper-slide sale">
+              <div></div>
+            </div>
+            <div class="swiper-slide promotion">
+              <div></div>
+            </div>
+            <div class="swiper-slide member">
+              <div></div>
+            </div>
+            <div class="swiper-slide news">
+              <div></div>
+            </div>
+            <div class="swiper-slide newproduct">
+              <div></div>
+            </div>
+            <div class="swiper-slide storeEvent">
+              <div></div>
+            </div>
+        </div>    
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+  </section>
+
+  <script>
+const swiper = new Swiper('#banner .swiper', {
+  slidesPerView: 3,
+  spaceBetween: 80,
+  centeredSlides: true,
+  loop: true,
+  // effect: "fade",
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+  autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+});
+
+  </script>
+  
+</body>
+</html>

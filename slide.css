@@ -1,0 +1,27 @@
+#banner .swiper-slide{
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50px;
+    border:1px solid #222; */
+}
+
+#banner .btnsbox{
+    display: flex;
+    align-items: center;
+    position: relative; /* 자식객체들이 abs reset되어서 지워도 됨*/
+    background-color: black;
+    color:white;    
+    border-radius: 25px;    
+    width:160px;
+    margin: 25px auto;
+    padding: 10px 0;
+    font-size: 25px;
+    
+}
+#banner .btnsbox *{
+    position: unset;
+}
